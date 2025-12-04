@@ -7,14 +7,11 @@ import Tag from 'primevue/tag';
   <main>
     <h2>Carbon Footprint Calculator</h2>
     <p>
-      In our DTP project, we created a model to predict the carbon emissions of an LLM 
-      based on its number of parameters, and different performance indicators used to 
-      measure an LLM's capabilities. 
+      The calculator is a linear regression model to predict the carbon emissions of an LLM 
+      based on its number of parameters , and different performance indicators (on a scale of <strong>1-100</strong>)
+      used to measure an LLM's capabilities. 
     </p>
     <h3>About the values</h3>
-    <div>
-      
-    </div>
     <p>
       <Tag value="Parameters" style="margin-right: 0.5rem;"/>
       The measurable size of a model
@@ -23,7 +20,7 @@ import Tag from 'primevue/tag';
       Assess the mathematical reasoning and problem-solving abilities of language models at an advanced level (high school/early college)
       <br/><br/>
       <Tag value="MUSR" style="margin-right: 0.5rem;"/>
-      Multi-step Soft Reasoning, the capability of the model to make a series of decisions or deductions, where each step depends on the outcome of the previous one. 
+      Multi-step Soft Reasoning, the capability of the model to make a series of decisions or deductions, where each step depends on the outcome of the previous one 
       <br/><br/>
       <Tag value="Generation" style="margin-right: 0.5rem;"/>
       Default value is 1, used only for models with minor updates made to it to improve performance
