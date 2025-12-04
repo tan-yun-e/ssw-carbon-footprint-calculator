@@ -11,8 +11,6 @@ const text = ref('')
 
 <template>
   <Menubar :model="menuItems" />
-  
-<h1>Hello PrimeVue</h1>
 
 <RouterView/>
 </template>

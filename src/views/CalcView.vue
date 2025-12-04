@@ -10,7 +10,7 @@ const message = ref('')
 
 <template>
     <div class="about">
-      <h1>This is the calculations page</h1>
+      <h1>Carbon Footprint Calculator</h1>
     </div>
     <div>
   <InputText v-model="text" style="margin-right: 1rem;"/>
