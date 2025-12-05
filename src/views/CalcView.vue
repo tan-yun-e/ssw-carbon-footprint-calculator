@@ -1,6 +1,5 @@
 <script setup>
 import Button from "primevue/button";
-import InputText from 'primevue/inputtext';
 import FloatLabel from 'primevue/floatlabel';
 import { Form } from '@primevue/forms';
 import { ref } from 'vue'
