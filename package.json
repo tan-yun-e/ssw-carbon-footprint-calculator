@@ -12,7 +12,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
-    "format": "prettier --write --experimental-cli src/"
+    "format": "prettier --write --experimental-cli src/",
+    "predploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@primeuix/themes": "^2.0.1",

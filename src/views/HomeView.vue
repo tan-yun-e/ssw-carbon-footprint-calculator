@@ -32,7 +32,7 @@ import Tag from 'primevue/tag';
     <span>
       Go to the 
     </span>
-      <a href="/calculator" class="underline hover:text-rose-300">calculator</a>
+      <a href="/ssw-carbon-footprint-calculator/calculator" class="underline hover:text-rose-300">calculator</a>
       <span>
         page to get started
       </span>
