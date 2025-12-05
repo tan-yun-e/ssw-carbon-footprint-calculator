@@ -18,7 +18,7 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/ssw-carbon-footprint-calculator/calculator',
+      path: '/calculator',
       name: 'calculator',
       component: () => import('../views/CalcView.vue'),
     }
