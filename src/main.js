@@ -6,6 +6,8 @@ import router from './router'
 import PrimeVue from 'primevue/config';
 import Aura from '@primeuix/themes/aura';
 import { definePreset } from '@primeuix/themes';
+import './assets/main.css'
+import ToastService from 'primevue/toastservice';
 
 const app = createApp(App);
 const MyPreset = definePreset(Aura, {
@@ -22,10 +24,7 @@ const MyPreset = definePreset(Aura, {
             800: '{rose.800}',
             900: '{rose.900}',
             950: '{rose.950}'
-        },
-        formField: {
-
-        },
+        }, 
         colorScheme: {
             dark: {
                 formField: {
@@ -46,6 +45,7 @@ app.use(PrimeVue, {
         preset: MyPreset
     }
 });
+app.use(ToastService);
 
 app.use(router)
 

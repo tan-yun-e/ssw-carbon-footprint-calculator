@@ -12,24 +12,31 @@ import Tag from 'primevue/tag';
       used to measure an LLM's capabilities. 
     </p>
     <h3>About the values</h3>
-    <p>
-      <Tag value="Parameters" style="margin-right: 0.5rem;"/>
-      The measurable size of a model
-      <br/><br/>
+      <div class="pb-3 pt-3">
+        <Tag value="Parameters" style="margin-right: 0.5rem;" />
+        The measurable size of a model
+      </div>
+      <div class="pb-3">
       <Tag value="Math_Lvl5" style="margin-right: 0.5rem;"/>
       Assess the mathematical reasoning and problem-solving abilities of language models at an advanced level (high school/early college)
-      <br/><br/>
-      <Tag value="MUSR" style="margin-right: 0.5rem;"/>
+      </div>
+      <div class="pb-3">
+        <Tag value="MUSR" style="margin-right: 0.5rem;"/>
       Multi-step Soft Reasoning, the capability of the model to make a series of decisions or deductions, where each step depends on the outcome of the previous one 
-      <br/><br/>
-      <Tag value="Generation" style="margin-right: 0.5rem;"/>
+      </div>
+      <div class="pb-3">
+        <Tag value="Generation" style="margin-right: 0.5rem;"/>
       Default value is 1, used only for models with minor updates made to it to improve performance
-      <br/>
-    </p>
-    <p>
-      Go to the <a href="/calculator">calculator</a>
-      page to get started
-    </p>
+      </div>
+
+    <span>
+      Go to the 
+    </span>
+      <a href="/calculator" class="underline hover:text-rose-300">calculator</a>
+      <span>
+        page to get started
+      </span>
+      
     <h2>How to use</h2>
     <p>
 
