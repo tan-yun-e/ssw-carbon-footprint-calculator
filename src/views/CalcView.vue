@@ -10,7 +10,7 @@ import InputNumber from 'primevue/inputnumber';
 
 const toast = useToast();
 
-let total = ref('');
+let total = ref('Fill up all the input fields');
 const parameters = ref('');
 const mathlvl5 = ref('');
 const musr = ref('');
