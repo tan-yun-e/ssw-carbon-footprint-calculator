@@ -12,6 +12,7 @@ export default defineConfig({
     vueDevTools(),
     
   ],
+  base: "/ssw-carbon-footprint-calculator",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

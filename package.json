@@ -1,5 +1,6 @@
 {
   "name": "ssw-carbon-footprint-calculator",
+  "homepage": "https://tan-yun-e.github.io/ssw-carbon-footprint-calculator/",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -17,6 +18,7 @@
     "@primeuix/themes": "^2.0.1",
     "@primevue/forms": "^4.5.0",
     "@tailwindcss/vite": "^4.1.17",
+    "gh-pages": "^6.3.0",
     "primevue": "^4.5.0",
     "tailwindcss-primeui": "^0.6.1",
     "vue": "^3.5.25",
