@@ -65,10 +65,10 @@ const onFormSubmit = ({ valid }) => {
   <div class="about">
     <h1 class="pt-6">Carbon Footprint Calculator</h1>
   </div>
-  <div min-h-screen p-4 flex justify-center lg:justify-start>
+  <div class="card flex justify-center">
     <Toast />
     <Form v-slot="$form" :initialValues :resolver :validateOnValueUpdate="false" :validateOnBlur="true"
-      @submit="onFormSubmit" class="flex flex-col gap-4 w-full sm:w-2/3 md:w-1/2 lg:w-[400px]">
+      @submit="onFormSubmit" class="flex flex-col gap-4 w-full sm:w-56">
       <FloatLabel variant="on" class="w-full">
         <InputNumber name="parameters" v-model="parameters" autocomplete="off" class="w-full" :min="0" />
         <label for="parameters">Parameters</label>

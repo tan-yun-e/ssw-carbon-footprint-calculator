@@ -12,14 +12,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
-    "format": "prettier --write --experimental-cli src/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
     "@primeuix/themes": "^2.0.1",
     "@primevue/forms": "^4.5.0",
     "@tailwindcss/vite": "^4.1.17",
+    "gh-pages": "^6.3.0",
     "primevue": "^4.5.0",
     "tailwindcss-primeui": "^0.6.1",
     "vue": "^3.5.25",
