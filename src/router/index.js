@@ -18,7 +18,7 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/#/calculator',
+      path: '/calculator',
       name: 'calculator',
       component: () => import('../views/CalcView.vue'),
     }
