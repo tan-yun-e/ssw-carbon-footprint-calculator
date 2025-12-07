@@ -1,4 +1,4 @@
 export const menuItems = [
-    { label: 'Home', icon: 'pi pi-home', url: '/' },
-    { label: 'Calculator', icon: 'pi pi-info-circle', url: '/ssw-carbon-footprint-calculator/calculator' },
+    { label: 'Home', icon: 'pi pi-home', to: '/' },
+    { label: 'Calculator', icon: 'pi pi-info-circle', to: '/calculator' },
   ]
