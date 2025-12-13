@@ -1,9 +1,4 @@
-For this DDW project, we used beta coefficients obtained from the earlier linear regression based on the Hugging Face dataset. While this was a useful starting point, I’ve realised that these values are heavily constrained by the dataset’s limitations and don’t fully capture the actual factors that drive LLM training emissions (e.g., hardware type, GPU-hours, energy mix, datacenter efficiency, etc.).
+Finish "How to use" section
+Add Images (Optional)
 
- 
-
-To build a more accurate and educationally meaningful estimator, I’d like to explore incorporating additional parameters beyond the initial dataset—potentially using a more physics-grounded model (energy consumption × grid intensity) or calibrating against published emissions disclosures from GPT-3, BLOOM, LLaMA, and other models.
-
- 
-
-Before I proceed, could I check if you’re open to me expanding the scope in this direction? I believe it would make the final tool much more realistic and informative for students. To clarify, this would mean deviating calculations made from DDW DTP project.
+Re-build model for prediction
